@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 import Category from "./Category";
 import Search from "./Search";
 
-const Main = ({ url }) => {
+const Home = ({ url }) => {
   const [info, setInfo] = useState({ products: [] });
   const [category, setCategory] = useState([]);
   const [activeCategory, setActiveCategory] = useState("all");
@@ -70,4 +70,4 @@ const Main = ({ url }) => {
   );
 };
 
-export default Main;
+export default Home;

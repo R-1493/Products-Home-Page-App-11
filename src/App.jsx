@@ -1,11 +1,12 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Main from "./Components/Main";
+import Home from "./Components/Home";
+
 function App() {
   const url = "https://dummyjson.com/products";
   return (
     <>
-      <Main url={url} />
+      <Home url={url} />
     </>
   );
 }
