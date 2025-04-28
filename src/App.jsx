@@ -1,7 +1,6 @@
 import "./App.css";
-import Main from "./Components/main";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Main from "./Components/Main";
 function App() {
   const url = "https://dummyjson.com/products";
   return (
